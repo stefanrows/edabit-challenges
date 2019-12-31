@@ -13,7 +13,7 @@ const drawStaris = (n) => {
 function drawStairs(n) {
 	let step = 'I';
 	for (let i = 1; i < n; i++) {
-		step += '\n' + ' '.repeat(i) + 'I';
+		step = step + '\n' + ' '.repeat(i) + 'I';
 	}
 	console.log(step);
 }
