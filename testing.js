@@ -1,6 +1,8 @@
-function totalCups(n) {
-	extra = n / 6;
-	console.log(n + extra);
-}
+let str = 'Dein mudda du spast';
 
-totalCups(12);
+const toJadenCase = function(str) {
+	let arr = str.split(' ');
+	arr.forEach((element) => console.log(element));
+};
+
+toJadenCase(str);
